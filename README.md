@@ -39,7 +39,7 @@ The model layer is intentionally abstracted to allow:
 
 ## 🗂 Project Structure
 
-ai-text-classifier/
+ai-text-classifier-with-pytorch/
 │
 ├── app/
 │ ├── myapp.py # API routes
