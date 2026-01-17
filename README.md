@@ -1,6 +1,6 @@
-# AI Text Classifier
+# AI Text Classifier With Pytorch
 
-A lightweight FastAPI backend that demonstrates how AI models (e.g. TensorFlow, PyTorch, or external inference services) can be cleanly integrated into a modern API service.
+A lightweight FastAPI backend that demonstrates how AI models (e.g. PyTorch, or external inference services) can be cleanly integrated into a modern API service.
 
 This project focuses on **API design, validation, and model abstraction**, rather than model training, making it suitable for production-oriented backend systems.
 
@@ -11,7 +11,7 @@ This project focuses on **API design, validation, and model abstraction**, rathe
 - FastAPI-powered REST API
 - Automatic request validation using Pydantic
 - Clean separation between API and model inference logic
-- Abstracted AI inference layer (easily swappable with TensorFlow models)
+- Abstracted AI inference layer (easily swappable with PyTorch models)
 - Auto-generated Swagger documentation
 - Lightweight and environment-agnostic
 
@@ -31,7 +31,7 @@ Inference Response
 
 
 The model layer is intentionally abstracted to allow:
-- Easy replacement with TensorFlow or PyTorch models
+- Easy replacement with PyTorch models
 - External AI services (e.g. hosted inference APIs)
 - Simplified testing and faster startup times
 
@@ -62,7 +62,7 @@ ai-text-classifier/
 - **Pydantic**
 - **Uvicorn**
 
-> The model layer is designed to support TensorFlow or other AI engines without changing the API layer.
+> The model layer is designed to support PyTorch or other AI engines without changing the API layer.
 
 ---
 
@@ -70,8 +70,8 @@ ai-text-classifier/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/zinando/ai-text-classifier.git
-cd ai-text-classifier
+git clone https://github.com/zinando/ai-text-classifier-with-pytorch.git
+cd ai-text-classifier-with-pytorch
 
 2. Create a virtual environment
 python -m venv venv
